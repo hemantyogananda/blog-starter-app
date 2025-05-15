@@ -1,7 +1,10 @@
 import cn from "classnames";
 import Link from "next/link";
 import Image from "next/image";
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+
+const basePath = 'https://hemantyogananda.github.io/blog-starter-app/';
+
 
 type Props = {
   title: string;
