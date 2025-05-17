@@ -3,8 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-const basePath = 'https://hemantyogananda.github.io/blog-starter-app/';
-
 
 type Props = {
   title: string;
@@ -15,7 +13,7 @@ type Props = {
 const CoverImage = ({ title, src, slug }: Props) => {
   const image = (
     <Image
-      src={`${basePath}/${src}`}
+      src={'./' + src}
       alt={`Cover Image for ${title}`}
       className={cn("shadow-sm w-full", {
         "hover:shadow-lg transition-shadow duration-200": slug,
