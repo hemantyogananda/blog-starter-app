@@ -3,7 +3,7 @@ import Link from "next/link";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
-import basePath from '../../../next.config';
+import { basePath } from '../../../next.config';
 
 type Props = {
   title: string;
